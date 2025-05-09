@@ -64,7 +64,6 @@
 	})
 
 
-
 	$(document).on("click", ".naccs .menu div", function() {
 		var numberIndex = $(this).index();
 	

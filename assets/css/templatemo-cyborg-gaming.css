@@ -134,6 +134,13 @@ body .page-content {
   border-radius: 23px;
 }
 
+button:focus, 
+button img:focus, 
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
 p {
   font-size: 15px;
   color: #666;
@@ -149,6 +156,19 @@ p {
 ::-moz-selection {
   background: #e75e8d;
   color: #fff;
+}
+
+.item.card {
+  background-color: #343a40;
+  color: #ffffff; /* texte blanc pour le contraste */
+  border: none; /* optionnel : pour supprimer les bordures Bootstrap */
+  min-height: 100px;
+  padding: 20px;
+}
+
+.item.card .card-body {
+  background-color: #343a40;
+  color: #ffffff;
 }
 
 .templatemo-item {
